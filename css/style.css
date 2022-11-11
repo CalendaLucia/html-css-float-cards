@@ -16,14 +16,15 @@
  #paragraph-header{
      font-size: 12px;
      text-align: center;
+     padding: 10px;
 }
 
 /* CONTAINER-CARDS STYLE */
 
 .container-cards {
     max-width: 1200px;
-    margin: 50px 200px;
-   
+    margin: 0 auto;
+   padding: 10PX
     
 }
 
