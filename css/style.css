@@ -16,23 +16,24 @@
  #paragraph-header{
      font-size: 12px;
      text-align: center;
-     padding: 10px;
+     padding: 20px;
+     margin-bottom: 20px;
 }
 
 /* CONTAINER-CARDS STYLE */
 
 .container-cards {
     max-width: 1200px;
-    margin: 0 auto;
-   padding: 10PX
+    margin-left: 220px;
+    padding: 10PX
     
 }
 
-.clearfix {
-    content: ;
-    display: table;
+.clearfix::after {
+    content: "";
     clear: both;
-}
+    display: table;
+  }
  
 .cards {
     float: left;
